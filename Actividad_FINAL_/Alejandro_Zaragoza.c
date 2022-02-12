@@ -1,4 +1,4 @@
-//Ruiz Gutierrez America Lizette
+
 //Zepeda Zaragoza Daniel Alejandro
 
 #include<stdio.h>
@@ -443,7 +443,7 @@ void modificar_s()
                     p(" %s", x[y].materno_s);
                     p("\n Ahorro: %.2f", x[y].ahorro);
                     p("\n Saldo: %.2f", x[y].saldo);
-                    p("\n¿DESEA MODIFICAR EL NOMBRE? \n1.SI        2.NO\n");
+                    p("\nÂ¿DESEA MODIFICAR EL NOMBRE? \n1.SI        2.NO\n");
                     s("%i", &op2);
                     switch(op2)
                     {
